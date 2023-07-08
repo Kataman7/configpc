@@ -1,0 +1,126 @@
+/* Réinitialisation des styles par défaut */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styles généraux */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 4em;
+  text-align: justify;
+}
+
+h1 {
+  font-size: 32px;
+  color: #7289da;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  color: #7289da;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+a {
+  color: #7289da;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover,
+a:active {
+  color: #f47fff;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+ul {
+  line-height: 1.5;
+  list-style-type: none;
+  margin-bottom: 20px;
+  padding-left: 0;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ul li {
+  margin-bottom: 5px;
+  color: #888;
+}
+
+.config-buttons {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Ajustez cette valeur en fonction de vos préférences */
+}
+
+.config-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 8em;
+  height: 8em;
+  font-size: 18px;
+  color: #fff;
+  background-color: #7289da; /* Couleur bleue du Discord */
+  border-radius: 10px;
+  transition: background-color 0.3s;
+  line-height: 1.2;
+  padding: 10px;
+}
+
+.config-button:hover {
+  color: #fff;
+  background-color: #f47fff; /* Couleur rose du Discord Nitro */
+}
+
+.config-button:active {
+  transform: scale(0.95); /* Effet d'enfoncement lors du clic */
+}
+
+/* Styles pour la classe "hidden" */
+.hidden {
+  display: none;
+}
+
+/* Styles pour le pied de page */
+.footer {
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+  text-align: center;
+  color: #888;
+}
+
+/* Styles pour les liens du pied de page */
+
+.discord-blue {
+  background: linear-gradient(90deg, #7289da, #f47fff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+#benchmark {
+  width: 100%;
+  height: 500px;
+  border: none;
+  border-radius: 10px;
+}
