@@ -70,14 +70,20 @@ ul li {
   justify-content: center; /* Ajustez cette valeur en fonction de vos préférences */
 }
 
-.config-button {
-  display: inline-flex;
-  align-items: center;
+.config-buttons {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+  /* Le reste de vos styles... */
+}
+
+.config-button {
+  flex-direction: column;
   margin-right: 10px;
   margin-bottom: 10px;
-  width: 8em;
-  height: 8em;
+  width: 150px;
+  height: 150px;
   font-size: 18px;
   color: #fff;
   background-color: #7289da; /* Couleur bleue du Discord */
@@ -85,6 +91,8 @@ ul li {
   transition: background-color 0.3s;
   line-height: 1.2;
   padding: 10px;
+  padding-top: 54px;
+  text-align: center;
 }
 
 .config-button:hover {

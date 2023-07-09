@@ -6,49 +6,49 @@
             {
                 "name": "Processeur",
                 "model": "Ryzen 5 5600G",
-                "price": "136€",
+                "price": 136,
                 "link": "https://www.amazon.fr/AMD-Ryzen-5600G-processeur-Bo%C3%AEte/dp/B092L9GF5N/ref=asc_df_B092L9GF5N/?tag=googshopfr-21&linkCode=df0&hvadid=506918805001&hvpos=&hvnetw=g&hvrand=2536295372885406483&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9055326&hvtargid=pla-1250272768452&psc=1"
             },
             {
                 "name": "Carte mère",
                 "model": "Asus Prime B450M-K II",
-                "price": "61€",
+                "price": 61,
                 "link": "https://www.amazon.de/-/en/Prime-B450M-K-Motherboard-Socket-Memory/dp/B08K96B2CT?crid=10EQPNZXURP9X&keywords=ASUS%2BPrime%2BB450M-K%2BII&qid=1685683927&sprefix=asus%2Bprime%2Bb450m-k%2Bii,aps,117&sr=8-3&th=1&linkCode=sl1&tag=fnkhardware05-21&linkId=104fdbde97387e87f9de301f07ba1ec2&language=en_GB&ref_=as_li_ss_tl"
             },
             {
                 "name": "RAM DDR4",
                 "model": "GSKILL AEGIS K2 2X8GB C16",
-                "price": "33€99",
+                "price": 33.99,
                 "link": "https://www.amazon.de/-/en/G-SKILL-Memory-GSKILL-AEGIS-2X8GB/dp/B07YV61K16?crid=XK0E0N2HH2LL&keywords=DDR4&qid=1682195164&sprefix=ddr4+,aps,142&sr=8-20&linkCode=sl1&tag=fnkhardware05-21&linkId=cc9fe3e132da84c79f972095fcf9dd38&language=en_GB&ref_=as_li_ss_tl"
             },
             {
                 "name": "SSD M.2",
                 "model": "Crucial P3 500Go",
-                "price": "23€40",
+                "price": 23.40,
                 "link": "https://www.amazon.fr/Crucial-500Go-CT500P3SSD8-PCIe-Jusqu%C3%A0/dp/B0B25LQQPC?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&content-id=amzn1.sym.7b552004-2b77-4a9c-ac1e-921b50b376e2:amzn1.sym.7b552004-2b77-4a9c-ac1e-921b50b376e2&crid=2DSQGYKDZ7HIW&cv_ct_cx=nvme+500Go&keywords=nvme+500Go&pd_rd_i=B0B25LQQPC&pd_rd_r=46159476-2af8-4ccd-bfff-cb9cb268e220&pd_rd_w=IZ2hb&pd_rd_wg=170oe&pf_rd_p=7b552004-2b77-4a9c-ac1e-921b50b376e2&pf_rd_r=XECJ63A1JDTQCJ4REFRZ&qid=1688214742&sbo=RZvfv//HxDF%2BO5021pAnSA%3D%3D&sprefix=nvme+500go,aps,123&sr=1-1-1890b328-3a40-4864-baa0-a8eddba1bf6a&linkCode=sl1&tag=fnkhar-21&linkId=39437b7a0f90cff246738d5a6a08013c&language=fr_FR&ref_=as_li_ss_tl"
             },
             {
                 "name": "Ventirad",
                 "model": "AMD Wraith",
-                "price": "0€",
+                "price": 0,
                 "link": "https://www.amazon.fr/AMD-Ryzen-5600G-processeur-Bo%C3%AEte/dp/B092L9GF5N/ref=asc_df_B092L9GF5N/?tag=googshopfr-21&linkCode=df0&hvadid=506918805001&hvpos=&hvnetw=g&hvrand=2536295372885406483&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9055326&hvtargid=pla-1250272768452&psc=1"
             },
             {
                 "name": "Boitier",
                 "model": "Tecware Nexus Air M2",
-                "price": "34€99",
+                "price": 34.99,
                 "link": "https://www.amazon.fr/FORGE-M2-Bo%C3%AEtier-Mini-Tower/dp/B08X4KTNYD/ref=sr_1_1?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2D156FHHCFCKA&keywords=Tecware%2BForge%2BM2&qid=1688403388&s=computers&sprefix=tecware%2Bforge%2Bm2%2Ccomputers%2C98&sr=1-1&th=1"
             },
             {
                 "name": "Alimentation",
                 "model": "Aerocool LUX 550W",
-                "price": "43€21",
+                "price": 43.21,
                 "link": "https://www.amazon.fr/Aerocool-Lux-Alimentation-defficacit%C3%A9-bronze/dp/B08426MBGY?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1X6FK5RDHNB96"
             },
             {
                 "name": "Carte Graphique",
                 "model": "RX Vega 7",
-                "price": "0€",
+                "price": 0,
                 "link": "https://www.amazon.fr/AMD-Ryzen-5600-Ventilateur-Stealth/dp/B09VCHR1VH?pd_rd_w=w6YD5&content-id=amzn1.sym.1bec6179-e78a-4900-91c1-a0cbdfe0e062&pf_rd_p=1bec6179-e78a-4900-91c1-a0cbdfe0e062&pf_rd_r=WG6VF49SFJ9Y56XYWKX1&pd_rd_wg=fA6dV&pd_rd_r=de6808ba-6c56-4e90-b8b9-24c661682382&pd_rd_i=B09VCHR1VH&linkCode=sl1&tag=fnkhar-21&linkId=f4c4444244e08b0d15efa95820c381f5&language=fr_FR&ref_=as_li_ss_tl&th=1"
             }
         ],
@@ -61,49 +61,49 @@
             {
                 "name": "Processeur",
                 "model": "Ryzen 5 5500",
-                "price": "107€26",
+                "price": 107.26,
                 "link": "https://www.amazon.fr/AMD-Ryzen-5500-Ventilateur-Stealth/dp/B09VCJ171S?&linkCode=sl1&tag=fnkhar-21&linkId=12c83c905544685a0ccd2ca141efc87f&language=fr_FR&ref_=as_li_ss_tl"
             },
             {
                 "name": "Carte mère",
                 "model": "Asus Prime B450M-K II",
-                "price": "61€",
+                "price": 61,
                 "link": "https://www.amazon.de/-/en/Prime-B450M-K-Motherboard-Socket-Memory/dp/B08K96B2CT?crid=10EQPNZXURP9X&keywords=ASUS%2BPrime%2BB450M-K%2BII&qid=1685683927&sprefix=asus%2Bprime%2Bb450m-k%2Bii,aps,117&sr=8-3&th=1&linkCode=sl1&tag=fnkhardware05-21&linkId=104fdbde97387e87f9de301f07ba1ec2&language=en_GB&ref_=as_li_ss_tl"
             },
             {
                 "name": "RAM DDR4",
                 "model": "GSKILL AEGIS K2 2X8GB C16",
-                "price": "33€99",
+                "price": 33.99,
                 "link": "https://www.amazon.de/-/en/G-SKILL-Memory-GSKILL-AEGIS-2X8GB/dp/B07YV61K16?crid=XK0E0N2HH2LL&keywords=DDR4&qid=1682195164&sprefix=ddr4+,aps,142&sr=8-20&linkCode=sl1&tag=fnkhardware05-21&linkId=cc9fe3e132da84c79f972095fcf9dd38&language=en_GB&ref_=as_li_ss_tl"
             },
             {
                 "name": "SSD M.2",
                 "model": "Crucial P3 1TB",
-                "price": "39€99",
+                "price": 39.99,
                 "link": "https://www.amazon.de/-/en/Crucial-CT1000P3SSD8-PCIe-NAND-NVMe/dp/B0B25LZGGW?crid=H1W1WW8XAXEL&keywords=crucial+p3&qid=1688711403&sprefix=crucial+P3,aps,128&sr=8-1&linkCode=sl1&tag=fnkhardware05-21&linkId=d2697a59a58e68559518095c1600d2ca&language=en_GB&ref_=as_li_ss_tl"
             },
             {
                 "name": "Ventirad",
                 "model": "AMD Wraith",
-                "price": "0€",
+                "price": 0,
                 "link": "https://www.amazon.fr/AMD-Ryzen-5500-Ventilateur-Stealth/dp/B09VCJ171S?&linkCode=sl1&tag=fnkhar-21&linkId=12c83c905544685a0ccd2ca141efc87f&language=fr_FR&ref_=as_li_ss_tl"
             },
             {
                 "name": "Boitier",
                 "model": "Tecware Forge M2",
-                "price": "44€99",
+                "price": 44.99,
                 "link": "https://www.amazon.fr/FORGE-M2-Bo%C3%AEtier-Mini-Tower/dp/B08X4K89PZ/ref=sr_1_1?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2D156FHHCFCKA&keywords=Tecware%2BForge%2BM2&qid=1688403388&s=computers&sprefix=tecware%2Bforge%2Bm2%2Ccomputers%2C98&sr=1-1&th=1"
             },
             {
                 "name": "Alimentation",
                 "model": "Aerocool LUX 550W",
-                "price": "43€21",
+                "price": 43.21,
                 "link": "https://www.amazon.fr/Aerocool-Lux-Alimentation-defficacit%C3%A9-bronze/dp/B08426MBGY?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1X6FK5RDHNB96"
             },
             {
                 "name": "Carte Graphique",
                 "model": "Sapphire Pulse RX 6600",
-                "price": "199€99",
+                "price": 199.99,
                 "link": "https://www.amazon.fr/Sapphire-Pulse-Radeon-Gaming-Triple/dp/B09G3F8PM7"
             }
         ],
@@ -116,49 +116,49 @@
             {
                 "name": "Processeur",
                 "model": "Ryzen 5 5600",
-                "price": "144€90",
+                "price": 144.90,
                 "link": "https://www.amazon.fr/AMD-Ryzen-5600-Ventilateur-Stealth/dp/B09VCHR1VH?pd_rd_w=w6YD5&content-id=amzn1.sym.1bec6179-e78a-4900-91c1-a0cbdfe0e062&pf_rd_p=1bec6179-e78a-4900-91c1-a0cbdfe0e062&pf_rd_r=WG6VF49SFJ9Y56XYWKX1&pd_rd_wg=fA6dV&pd_rd_r=de6808ba-6c56-4e90-b8b9-24c661682382&pd_rd_i=B09VCHR1VH&linkCode=sl1&tag=fnkhar-21&linkId=f4c4444244e08b0d15efa95820c381f5&language=fr_FR&ref_=as_li_ss_tl&th=1"
             },
             {
                 "name": "Carte mère",
                 "model": "Gigabyte B550 Gaming X V2",
-                "price": "109€90",
+                "price": 109.90,
                 "link": "https://www.amazon.de/-/en/Gigabyte-B550-Gaming-V2-Black/dp/B08K16S4K1?crid=1MCM7DF7WRLPA&keywords=B550&qid=1682242387&sprefix=b550,aps,183&sr=8-9&linkCode=sl1&tag=fnkhardware05-21&linkId=5ecfe925a935c7b1aee5948a5488cadf&language=en_GB&ref_=as_li_ss_tl"
             },
             {
                 "name": "RAM DDR4",
                 "model": "GSKILL AEGIS K2 2X8GB C16",
-                "price": "33€99",
+                "price": 33.99,
                 "link": "https://www.amazon.de/-/en/G-SKILL-Memory-GSKILL-AEGIS-2X8GB/dp/B07YV61K16?crid=XK0E0N2HH2LL&keywords=DDR4&qid=1682195164&sprefix=ddr4+,aps,142&sr=8-20&linkCode=sl1&tag=fnkhardware05-21&linkId=cc9fe3e132da84c79f972095fcf9dd38&language=en_GB&ref_=as_li_ss_tl"
             },
             {
                 "name": "SSD M.2",
                 "model": "Crucial P3 1TB",
-                "price": "39€99",
+                "price": 39.99,
                 "link": "https://www.amazon.de/-/en/Crucial-CT1000P3SSD8-PCIe-NAND-NVMe/dp/B0B25LZGGW?crid=H1W1WW8XAXEL&keywords=crucial+p3&qid=1688711403&sprefix=crucial+P3,aps,128&sr=8-1&linkCode=sl1&tag=fnkhardware05-21&linkId=d2697a59a58e68559518095c1600d2ca&language=en_GB&ref_=as_li_ss_tl"
             },
             {
                 "name": "Ventirad",
                 "model": "Thermalright Assassin King 120",
-                "price": "25€",
+                "price": 25,
                 "link": "https://www.amazon.fr/Thermalright-CPU-Luftk%C3%BChler-Heatpipes-CPU-K%C3%BChler-S-FDB-Lager/dp/B0B5L3K293?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=thermalright&qid=1686147024&sr=8-11&linkCode=sl1&tag=fnkhar-21&linkId=744fd26de8e74be7ea59498ddc91470c&language=fr_FR&ref_=as_li_ss_tl"
             },
             {
                 "name": "Boitier",
                 "model": "DeepCool CC560",
-                "price": "56€90",
+                "price": 56.90,
                 "link": "https://www.alternate.fr/Deepcool/CC560-Moyen-tour/html/product/1824145?zanpid=11424_1678263709_440a3ad3eeec787bef6f6aa6876e8dc5&awc=11424_1678263709_440a3ad3eeec787bef6f6aa6876e8dc5&partner=FrZanox"
             },
             {
                 "name": "Alimentation",
                 "model": "Aerocool LUX 650W",
-                "price": "43€40",
+                "price": 43.40,
                 "link": "https://www.amazon.fr/Aerocool-Lux-RGB-650W-Alimentation/dp/B07S1X87CJ/ref=sr_1_6?keywords=alimentation%2Bpc%2B650w&qid=1688720705&sr=8-6&th=1"
             },
             {
                 "name": "Carte Graphique",
                 "model": "XFX RX 6750XT",
-                "price": "379€",
+                "price": 379,
                 "link": "https://www.amazon.fr/XFX-Speedster-QICK319-Graphique-RX-675XYJFDP/dp/B0B34M1YLW?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2Q8KSROPXU7IN&keywords=RX+6750+XT&qid=1683869902&sprefix=rx+6750+xt,aps,115&sr=8-2&linkCode=sl1&tag=fnkhar-21&linkId=a68a0086dc7d0bf1227123fb7cd64fdd&language=fr_FR&ref_=as_li_ss_tl"
             }
         ],
@@ -166,54 +166,54 @@
     },
     {
         "name": "La config à 1010€",
-        "description": "C'est l'option idéale pour profiter d'une expérience de jeu fluide en résolution 1080p et 1440p. Cette configuration est conçue pour être hyper polyvalente, répondant à vos besoins en matière de jeu, de streaming, de montage vidéo et bien plus encore.",
+        "description": "Cette configuration est conçue pour être hyper polyvalente, répondant à vos besoins en matière de jeu, de streaming, de montage vidéo et bien plus encore. Son processeur de 10 Cores et sa carte graphique de 16go de mémoire vidéo lui permettrons d'effectuer les tâches les plus lourdes !",
         "components": [
             {
                 "name": "Processeur",
                 "model": "i5-12600KF",
-                "price": "229€90",
+                "price": 229.90,
                 "link": "https://www.rueducommerce.fr/p-intel-core-i5-12600kf-37-ghz--49-ghz-intel-3349040-18383.html?awc=6901_1688404333_f304f4c6af36cd333adbb7843eb50a72&utm_medium=affiliation&utm_source=619495&utm_content=lien-profond&utm_campaign=Awin-public"
             },
             {
                 "name": "Carte mère",
                 "model": "B760M GAMING X AX",
-                "price": "135€90",
+                "price": 135.90,
                 "link": "https://www.rueducommerce.fr/p-b760m-gaming-x-ax-ddr4-gigabyte-3439200-18319.html?awc=6901_1688404548_0c96656d15adfc25472860e51c369a33&utm_medium=affiliation&utm_source=619495&utm_content=lien-profond&utm_campaign=Awin-public"
             },
             {
                 "name": "RAM DDR4",
                 "model": "Gskill F4-3200C16  2x16GB",
-                "price": "63€99",
+                "price": 63.99,
                 "link": "https://www.amazon.de/-/en/Gskill-F4-3200C16D-32GVK-Memory-1-35V-RipjawsV/dp/B0171GQR0C?crid=X7OHH9VU2D8Y&keywords=Gskill+F4-3200C16D-32GVK&qid=1688028140&sprefix=gskill+f4-3200c16d-32gvk,aps,113&sr=8-1&linkCode=sl1&tag=fnkhardware05-21&linkId=3b54c6fbe497950fabbbd42f6bc1aa77&language=en_GB&ref_=as_li_ss_tl"
             },
             {
                 "name": "SSD M.2",
                 "model": "Crucial P3 1TB",
-                "price": "39€99",
+                "price": 39.99,
                 "link": "https://www.amazon.de/-/en/Crucial-CT1000P3SSD8-PCIe-NAND-NVMe/dp/B0B25LZGGW?crid=H1W1WW8XAXEL&keywords=crucial+p3&qid=1688711403&sprefix=crucial+P3,aps,128&sr=8-1&linkCode=sl1&tag=fnkhardware05-21&linkId=d2697a59a58e68559518095c1600d2ca&language=en_GB&ref_=as_li_ss_tl"
             },
             {
                 "name": "Ventirad",
                 "model": "Thermalright Assassin King 120",
-                "price": "25€",
+                "price": 25,
                 "link": "https://www.amazon.fr/Thermalright-CPU-Luftk%C3%BChler-Heatpipes-CPU-K%C3%BChler-S-FDB-Lager/dp/B0B5L3K293?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=thermalright&qid=1686147024&sr=8-11&linkCode=sl1&tag=fnkhar-21&linkId=744fd26de8e74be7ea59498ddc91470c&language=fr_FR&ref_=as_li_ss_tl"
             },
             {
                 "name": "Boitier",
                 "model": "Tecware Forge M2",
-                "price": "44€99",
+                "price": 44.99,
                 "link": "https://www.amazon.fr/FORGE-M2-Bo%C3%AEtier-Mini-Tower/dp/B08X4K89PZ/ref=sr_1_1?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2D156FHHCFCKA&keywords=Tecware%2BForge%2BM2&qid=1688403388&s=computers&sprefix=tecware%2Bforge%2Bm2%2Ccomputers%2C98&sr=1-1&th=1"
             },
             {
                 "name": "Alimentation",
                 "model": "EVGA 750W",
-                "price": "66€",
+                "price": 66,
                 "link": "https://www.amazon.fr/EVGA-Power-Supply-Bronze-Warranty/dp/B093Q9HTS6?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1X6FK5RDHNB96"
             },
             {
                 "name": "Carte Graphique",
                 "model": "INTEL ARC 770 (16go)",
-                "price": "399€",
+                "price": 399,
                 "link": "https://www.grosbill.com/carte-graphique/intel/126203.aspx?#siteawin"
             }
         ],

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>La config idéale pour les petits budgets</title>
+
+    <meta name="description"
+        content="La configuration parfaite pour la bureautique ou les jeux compétitifs. Abordable et performante, elle offre
+        surtout une grande capacité d'évolutivité car vous avez la possibilité d'ajouter une carte graphique dans le
+        futur. Optez pour cette config à 300€ et lancez-vous dans l'aventure !">
+
+    <link rel="stylesheet" type="text/css" href="../style.css">
+
+</head>
+
+<body>
+    <h1>Les meilleures configs de <a href="../index.html" class="discord-blue">PC GAMER</span></a>.</h1>
+    <br>
+    <p class="sous-tire">Découvrez les meilleures configurations de PC gamer, minutieusement sélectionnées pour offrir
+        le meilleur rapport qualité / performance / prix. Que vous soyez un joueur occasionnel ou un passionné de jeux
+        vidéo, trouvez la configuration qui répond à vos besoins et profitez d'une expérience de jeu exceptionnelle.</p>
+    <br>
+    <div class="config-buttons">
+        <a href="../configs/budget.html" class="config-button">La config à <span class="budgetPrice">300</span>€ 🧃</a>
+        <a href="../configs/1080p.html"class="config-button">La config à <span class="casualPrice">500</span>€ 🍺</a>
+        <a href="../configs/1440p.html" class="config-button">La config à <span class="proPrice">800</span>€ 🍷</a>
+        <a href="../configs/creator.html" class="config-button">La config à <span class="creatorPrice">1000</span>€ 🍾</a>
+    </div>
+    <br>
+
+    <h2>La config à <span class="budgetPrice">300</span>€, idéale pour les petits budgets</h2>
+    <ul><li>La configuration parfaite pour la bureautique ou les jeux compétitifs. Abordable et performante, elle offre
+        surtout une grande capacité d'évolutivité car vous avez la possibilité d'ajouter une carte graphique dans le
+        futur. Optez pour cette config à <span class="budgetPrice">300</span>€ et lancez-vous dans l'aventure !</li></ul>
+
+    <h2>Les composants</h2>
+    <ul id="config-list"></ul>
+
+    <h2>Le benchmark</h2>
+    <iframe id="benchmark" width="1904" height="792" src="" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    <br>
+    <br>
+
+    <footer class="footer">
+
+        <p class="sous-tire">La dernière actualisation a eu lieu le <span id="lastEdit"></span>.</p>
+        <p>Un problème avec un lien ? Contactez-moi : <a href="mailto:contact@configpc.xyz">contact@configpc.xyz</a></p>
+
+    </footer>
+
+    <script src="../script/price.js"></script>
+    <script src="../script/configurations.js"></script>
+    <script>
+        window.onload = function () {
+            loadConfiguration(0);
+        };
+    </script>
+
+</body>
