@@ -70,14 +70,6 @@ ul li {
   justify-content: center; /* Ajustez cette valeur en fonction de vos préférences */
 }
 
-.config-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  /* Le reste de vos styles... */
-}
-
 .config-button {
   flex-direction: column;
   margin-right: 10px;

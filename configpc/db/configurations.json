@@ -1,6 +1,6 @@
 [
     {
-        "name": "La config à 335€",
+        "name": "La config à <span class=\"price-300\">300</span>€,votre tout premier PC",
         "description": "La configuration parfaite pour la bureautique ou les jeux compétitifs. Abordable et performante, elle offre surtout une grande capacité d'évolutivité car vous avez la possibilité d'ajouter une carte graphique dans le futur. Optez pour cette config à 350€ et lancez-vous dans l'aventure !",
         "components": [
             {
@@ -55,7 +55,7 @@
         "video": "https://www.youtube.com/embed/pNFXgyBBOkY"
     },
     {
-        "name": "La config à 540€",
+        "name": "La config à <span class=\"price-500\">300</span>€, aussi bien qu'une PS5",
         "description": "La configuration idéale pour jouer en 1080p à tous les jeux dans de très bonnes conditions. Une puissance optimale à un prix abordable de 580€.",
         "components": [
             {
@@ -110,7 +110,7 @@
         "video": "https://www.youtube.com/embed/hJDZFvXD1rg"
     },
     {
-        "name": "La config à 830€",
+        "name": "La config à <span class=\"price-800\">800</span>, pour une expérience de jeu optimale",
         "description": "Cette configuration propose une performance brute exceptionnelle et permet une expérience de jeu optimale en en 1440p. Vous serez prêt à affronter les jeux les plus exigeants dans les meilleures conditions. Voici les composants clés de cette configuration",
         "components": [
             {
@@ -165,7 +165,7 @@
         "video": "https://www.youtube.com/embed/y8R-smdAzEk"
     },
     {
-        "name": "La config à 1010€",
+        "name": "La config à <span class=\"price-1000\">1000</span>€, la machine du créateur",
         "description": "Cette configuration est conçue pour être hyper polyvalente, répondant à vos besoins en matière de jeu, de streaming, de montage vidéo et bien plus encore. Son processeur de 10 Cores et sa carte graphique de 16go de mémoire vidéo lui permettrons d'effectuer les tâches les plus lourdes !",
         "components": [
             {

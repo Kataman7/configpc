@@ -2,25 +2,25 @@
     {
         "name": "Clavier 65%",
         "model": "Ozone Gaming Mini Tactical",
-        "price": "34€76",
+        "price": 34.76,
         "link": "https://www.amazon.fr/gp/product/B09SBKP5Y1/ref=ox_sc_act_title_4?smid=A1X6FK5RDHNB96&psc=1"
     },
     {
         "name": "Souris filaire",
         "model": "Cooler Master MM730",
-        "price": "19€99",
+        "price": 19.99,
         "link": "https://www.amazon.de/dp/B09H2LMM5V?psc=1&linkCode=sl1&tag=fnkhardware05-21&linkId=d2cc0b94a259e3f1643e96ffe5013ab9&language=en_GB&ref_=as_li_ss_tl"
     },
     {
         "name": "Carte graphique",
         "model": "RX 6650 XT",
-        "price": "246€95",
+        "price": 246.95,
         "link": "https://www.amazon.de/dp/B09H2LMM5V?psc=1&linkCode=sl1&tag=fnkhardware05-21&linkId=d2cc0b94a259e3f1643e96ffe5013ab9&language=en_GB&ref_=as_li_ss_tl"
     },
     {
         "name": "Carte graphique",
         "model": "RTX 3060 Ti",
-        "price": "319€90",
+        "price": 319.90,
         "link": "https://www.rueducommerce.fr/p-geforce-rtx-3060-ti-twin-x2-lhr-inno3d-3407596-18279.html?awc=6901_1688808837_ea9bb137901ad8cfa7c231979acfbac6&utm_medium=affiliation&utm_source=619495&utm_content=lien-profond&utm_campaign=Awin-public"
     }
     
