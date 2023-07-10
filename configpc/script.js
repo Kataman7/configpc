@@ -101,4 +101,24 @@ fetch('./db/bonplan.json')
   });
 
 
+// Sélectionnez tous les éléments ayant la classe "config-button"
+var buttons = document.querySelectorAll('.config-button');
+
+// Parcourez tous les boutons
+buttons.forEach(function(button) {
+  // Ajoutez un écouteur d'événement "click" à chaque bouton
+  button.addEventListener('click', function() {
+    // Supprimez la classe "active" de tous les autres boutons
+    buttons.forEach(function(otherButton) {
+      if (otherButton !== button) {
+        otherButton.classList.remove('active');
+      }
+    });
+
+    // Ajoutez la classe "active" au bouton actuel
+    button.classList.toggle('active');
+  });
+});
+
+
 

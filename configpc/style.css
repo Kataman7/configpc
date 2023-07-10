@@ -94,7 +94,11 @@ ul li {
 
 .config-button:active {
   transform: scale(0.95); /* Effet d'enfoncement lors du clic */
+} 
+.config-button.active {
+  background-color: #f47fff; /* Couleur rose du Discord Nitro */
 }
+
 
 /* Styles pour la classe "hidden" */
 .hidden {
