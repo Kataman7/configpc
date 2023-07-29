@@ -1,98 +1,176 @@
-# Documentation de l'API CONFIGPC.XYZ
+# Documentation de l'API configpc.xyz
 
-Bienvenue à la documentation de l'API ConfigPC ! Cette API vous permet d'accéder à des configurations de PC basées sur une liste de composants spécifiques. Vous pouvez obtenir les détails des différentes configurations pour les utiliser dans vos projets.
+L'API configpc.xyz permet d'obtenir des configurations d'ordinateurs basées sur différents composants matériels tels que le processeur, la carte graphique, la carte mère, la RAM, le SSD M.2, le boîtier, l'alimentation et le ventirad. En outre, elle fournit également une liste de bonnes affaires (deals) sur ces composants. L'API renvoie les résultats au format JSON, ce qui permet une intégration facile dans différentes applications.
 
-## URL de l'API
+## Endpoints
 
-L'API est hébergée à l'adresse suivante : `https://configpc.xyz/api.php`
+### 1. Obtenir les configurations d'ordinateurs
 
-## Endpoint
+- **Endpoint:** `configpc.xyz/api.php`
+- **Méthode:** GET
 
-L'endpoint unique de cette API est :
+#### Paramètres
 
-`GET /configurations`
+Aucun paramètre n'est requis pour obtenir les configurations d'ordinateurs. Les configurations sont renvoyées pour quatre colonnes de configuration différentes : `config1`, `config2`, `config3`, `config4`.
 
-## Paramètres
+#### Réponse
 
-Cette API ne nécessite aucun paramètre supplémentaire pour l'instant.
+La réponse renverra un objet JSON contenant les détails des composants de chaque configuration.
 
-## Réponse de l'API
-
-L'API renvoie un objet JSON contenant les détails des configurations sous la forme suivante :
-
+Exemple de réponse :
 ```json
 {
-  "config1": {
-    "CPU": {
-      "name": "Nom_du_composant",
-      "model": "Modèle_du_composant",
-      "price": "Prix_du_composant",
-      "link": "Lien_vers_le_composant"
+    "config1": {
+        "CPU": {
+            "name": "Processeur1",
+            "model": "Modèle1",
+            "price": 200,
+            "link": "lien_vers_le_produite"
+        },
+        "GPU": {
+            "name": "Carte graphique1",
+            "model": "Modèle1",
+            "price": 300,
+            "link": "lien_vers_le_produite"
+        },
+        ...
     },
-    "GPU": {
-      "name": "Nom_du_composant",
-      "model": "Modèle_du_composant",
-      "price": "Prix_du_composant",
-      "link": "Lien_vers_le_composant"
+    "config2": {
+        ...
     },
-    // Autres composants de la config1...
-  },
-  "config2": {
-    // Composants de la config2...
-  },
-  // Autres configurations...
+    "config3": {
+        ...
+    },
+    "config4": {
+        ...
+    }
 }
+```
+
+### 2. Obtenir les bonnes affaires (deals) sur les composants
+
+- **Endpoint:** `configpc.xyz/api.php`
+- **Méthode:** GET
+- **Paramètre:** `deals` (valeur : `true`)
+
+#### Réponse
+
+La réponse renverra un objet JSON contenant une liste de bonnes affaires sur les composants matériels.
+
+Exemple de réponse :
+```json
+[
+    {
+        "name": "Composant1",
+        "model": "Modèle1",
+        "price": 100,
+        "link": "lien_vers_le_produite"
+    },
+    {
+        "name": "Composant2",
+        "model": "Modèle2",
+        "price": 150,
+        "link": "lien_vers_le_produite"
+    },
+    ...
+]
 ```
 
 ## Exemples d'utilisation
 
-### Exemple 1: Obtenez toutes les configurations disponibles
+### Exemple 1: Obtenir les configurations d'ordinateurs
 
-Requête : `GET https://configpc.xyz/api.php/configurations`
+```php
+<?php
+// Appel de l'API pour obtenir les configurations d'ordinateurs
+$apiUrl = "https://configpc.xyz/api.php";
+$response = file_get_contents($apiUrl);
 
-Réponse (simplifiée pour des raisons de lisibilité) :
+// Conversion de la réponse JSON en tableau associatif
+$configurations = json_decode($response, true);
 
-```json
-{
-  "config1": {
-    "CPU": {
-      "name": "Intel Core i7",
-      "model": "i7-10700K",
-      "price": "350",
-      "link": "https://exemple.com/cpu_i7_10700k"
-    },
-    "GPU": {
-      "name": "NVIDIA GeForce RTX 3080",
-      "model": "RTX 3080",
-      "price": "800",
-      "link": "https://exemple.com/gpu_rtx3080"
-    },
-    // Autres composants de la config1...
-  },
-  "config2": {
-    // Composants de la config2...
-  },
-  // Autres configurations...
+// Utilisation des configurations obtenues
+foreach ($configurations as $configName => $configDetails) {
+    echo "Configuration $configName:\n";
+    foreach ($configDetails as $componentName => $componentDetails) {
+        echo "- $componentName: " . $componentDetails['name'] . " (Modèle: " . $componentDetails['model'] . ", Prix: " . $componentDetails['price'] . "€)\n";
+    }
+    echo "\n";
 }
+?>
 ```
 
-### Exemple 2: Utilisez les données dans votre projet
+### Exemple 2: Obtenir les bonnes affaires (deals) sur les composants
+
+```php
+<?php
+// Appel de l'API pour obtenir les bonnes affaires sur les composants
+$apiUrl = "https://configpc.xyz/api.php?deals=true";
+$response = file_get_contents($apiUrl);
+
+// Conversion de la réponse JSON en tableau associatif
+$deals = json_decode($response, true);
+
+// Utilisation des bonnes affaires obtenues
+echo "Bonnes affaires:\n";
+foreach ($deals as $deal) {
+    echo "- " . $deal['name'] . " (Modèle: " . $deal['model'] . ", Prix: " . $deal['price'] . "€)\n";
+}
+?>
+```
+
+### Exemple 1: Utilisation en Python
+
+```python
+import requests
+import json
+
+# Appel de l'API pour obtenir les configurations d'ordinateurs
+api_url = "https://configpc.xyz/api.php"
+response = requests.get(api_url)
+configurations = response.json()
+
+# Utilisation des configurations obtenues
+for config_name, config_details in configurations.items():
+    print(f"Configuration {config_name}:")
+    for component_name, component_details in config_details.items():
+        print(f"- {component_name}: {component_details['name']} (Modèle: {component_details['model']}, Prix: {component_details['price']}€)")
+    print()
+```
+
+### Exemple 2: Utilisation en JavaScript (Node.js)
 
 ```javascript
-// Exemple en JavaScript pour récupérer les configurations via l'API
-fetch('https://configpc.xyz/api.php/configurations')
+const fetch = require('node-fetch');
+
+// Appel de l'API pour obtenir les configurations d'ordinateurs
+const apiUrl = 'https://configpc.xyz/api.php';
+fetch(apiUrl)
   .then(response => response.json())
-  .then(data => {
-    // Utilisez les données dans votre projet
-    console.log(data.config1);
-    console.log(data.config2);
-    // ...
-  })
-  .catch(error => {
-    console.error('Une erreur s\'est produite :', error);
+  .then(configurations => {
+    // Utilisation des configurations obtenues
+    for (const configName in configurations) {
+      console.log(`Configuration ${configName}:`);
+      const configDetails = configurations[configName];
+      for (const componentName in configDetails) {
+        const componentDetails = configDetails[componentName];
+        console.log(`- ${componentName}: ${componentDetails.name} (Modèle: ${componentDetails.model}, Prix: ${componentDetails.price}€)`);
+      }
+      console.log();
+    }
   });
 ```
 
-Note: Assurez-vous que le format des données renvoyées correspond à vos besoins et adaptez votre code en conséquence.
+### Exemple 3: Utilisation en cURL (ligne de commande)
 
-Ceci conclut la documentation de l'API ConfigPC. N'hésitez pas à utiliser les configurations fournies pour vos projets et à nous contacter en cas de besoin d'aide ou de questions supplémentaires. Bon développement !
+```bash
+# Appel de l'API pour obtenir les configurations d'ordinateurs
+curl -X GET https://configpc.xyz/api.php
+
+# Appel de l'API pour obtenir les bonnes affaires sur les composants
+curl -X GET "https://configpc.xyz/api.php?deals=true"
+```
+
+Ces exemples illustrent comment appeler l'API `configpc.xyz` à l'aide de différentes langues de programmation pour obtenir les configurations d'ordinateurs et les bonnes affaires sur les composants matériels. Vous pouvez utiliser des bibliothèques similaires dans d'autres langages pour effectuer des appels d'API et traiter les réponses JSON.
+
+N'hésitez pas à utiliser ces exemples comme point de départ pour intégrer l'API `configpc.xyz` dans vos propres applications ou services. Vous pouvez également étendre l'API pour inclure plus de fonctionnalités en fonction de vos besoins spécifiques.
